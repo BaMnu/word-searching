@@ -14,5 +14,6 @@ public class Main {
         String search = scanner.nextLine().toLowerCase();
         System.out.println("Searching...");
         checkWord.hasWord(search);
+        scanner.close();
     }
 }
